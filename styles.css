@@ -1,0 +1,38 @@
+ body { 
+  max-width: 750px;
+  margin: auto;
+  background-color: whitesmoke;
+  color: rgb(66, 66, 66);
+  font-family: monospace;
+ }
+
+ nav {
+    text-align: center;
+    font-size: large;
+ }
+
+ ul {
+    list-style: circle;
+ }
+
+ div {
+    background-color: #48484819;
+    border-radius: 10px;
+    padding: 1px 10px;
+ }
+
+ a {
+    color: rgb(106, 106, 106);
+ }
+
+ a:hover {
+    color: rgb(255, 255, 255);
+ }
+
+ .pfp {
+    float: left;
+    margin: 10px 10px 5px 5px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: rgb(106, 106, 106);
+ }
