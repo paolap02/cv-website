@@ -9,6 +9,12 @@
  nav {
     text-align: center;
     font-size: large;
+    max-width: fit-content;
+    margin: auto;
+ }
+
+ nav:hover {
+   background-color: #48484819;
  }
 
  ul {
@@ -18,11 +24,14 @@
  div {
     background-color: #48484819;
     border-radius: 10px;
-    padding: 1px 10px;
+    padding: 2px 15px;
+    margin: 30px;
  }
 
  a {
     color: rgb(106, 106, 106);
+    text-decoration-style: double;
+    text-decoration-color: rgb(106, 106, 106);
  }
 
  a:hover {
@@ -41,4 +50,13 @@
     border-radius: 50%;
     border-style: double;
     border-color: rgb(106, 106, 106);
+ }
+
+ footer {
+   text-align: center;
+   margin: 30px;
+ }
+
+ h2 {
+   margin-bottom: 5px;
  }
